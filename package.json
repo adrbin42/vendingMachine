@@ -1,0 +1,37 @@
+{
+  "name": "vendingmachineapi",
+  "version": "1.0.0",
+  "description": "Vending Machine API with TDD",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrbin42/vendingMachine.git"
+  },
+  "author": "Adrienne Bing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrbin42/vendingMachine/issues"
+  },
+  "homepage": "https://github.com/adrbin42/vendingMachine#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "express-validator": "^3.2.1",
+    "install": "^0.10.1",
+    "mocha": "^3.4.2",
+    "mongodb": "^2.2.30",
+    "mongoose": "^4.10.8",
+    "morgan": "^1.8.2",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.5",
+    "npm": "^5.2.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.3.1",
+    "supertest": "^3.0.0"
+  }
+}
